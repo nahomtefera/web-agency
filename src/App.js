@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
 import Navbar from './components/navbar/navbar';
+import Intro from './components/intro/intro';
 import './App.css';
 
 class App extends Component {
@@ -57,6 +58,7 @@ class App extends Component {
         }
         
         <Navbar showNavbar={this.state.showNavbar} toggleNavbar={this.toggleNavbar}/>  
+        <Intro />
       </div>
     );
   }

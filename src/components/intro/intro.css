@@ -1,0 +1,28 @@
+.intro-container {
+    text-align: center;
+}
+
+.intro-text-container {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.intro-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 4.5em;
+    font-weight: 300;
+    width: 400px;
+    margin: 0;
+    text-align: left;
+}
+
+.intro-img-container{
+    display: inline-block;
+    margin: 20px;
+}
+
+.intro-img {
+    width: 500px;
+    max-width: 100%;
+}

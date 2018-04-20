@@ -1,0 +1,30 @@
+.portfolio-container {
+}
+
+.portfolio-title {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 2em;
+    color: #9dc9eb;
+}
+
+.mockups-scroll-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.mockups-container {
+    width: 3500px;
+}
+
+.portfolio-img-item {
+    width: 600px;
+    margin-right: -12em;   
+    cursor: pointer; 
+}
+
+.portfolio-img-item:hover {
+}

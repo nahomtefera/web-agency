@@ -2,17 +2,35 @@
     text-align: center;
 }
 
+.intro-logo {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+}
+
 .intro-text-container {
     display: inline-block;
     text-align: center;
     margin: 20px;
+    vertical-align: top;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.intro-title {
+    text-align: left;
+    color: #4097db;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .intro-text {
     font-family: "Quicksand", sans-serif;
-    font-size: 4.5em;
+    font-size: 2.2em;
     font-weight: 300;
-    width: 400px;
+    width: 640px;
     margin: 0;
     text-align: left;
 }
@@ -23,6 +41,6 @@
 }
 
 .intro-img {
-    width: 500px;
+    width: 600px;
     max-width: 100%;
 }

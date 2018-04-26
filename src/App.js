@@ -3,6 +3,7 @@ import FontAwesome from 'react-fontawesome';
 import Navbar from './components/navbar/navbar';
 import Intro from './components/intro/intro';
 import Portfolio from './components/portfolio/portfolio';
+import Services from './components/services/services';
 import './App.css';
 
 class App extends Component {
@@ -61,6 +62,7 @@ class App extends Component {
         <Navbar showNavbar={this.state.showNavbar} toggleNavbar={this.toggleNavbar}/>  
         <Intro />
         <Portfolio />
+        <Services />
         <br/>
         <br/>
         <br/>

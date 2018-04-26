@@ -61,6 +61,11 @@ class App extends Component {
         <Navbar showNavbar={this.state.showNavbar} toggleNavbar={this.toggleNavbar}/>  
         <Intro />
         <Portfolio />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
       </div>
     );
   }

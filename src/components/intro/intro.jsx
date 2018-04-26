@@ -12,7 +12,7 @@ class Intro extends Component {
                     <h3 className="intro-text">It's time to get the best out of your restaurant, give your website a new look and start atracting customers</h3>
                 </div>
                 <div className="intro-img-container">
-                    <img className="intro-img" src={require("../../images/intro-img-mockup.png")} alt="intro"/>
+                    <img className="intro-img" src={require("../../images/intro-img-mockup-2.png")} alt="intro"/>
                 </div>
             </div>
         )

@@ -20,7 +20,8 @@
 
 .intro-title {
     text-align: left;
-    color: #4097db;
+    color: #2b6592;
+    font-size: 1.6em;
     font-family: 'Quicksand';
     font-weight: bold;
     text-transform: uppercase;
@@ -30,6 +31,7 @@
     font-family: "Quicksand", sans-serif;
     font-size: 2.2em;
     font-weight: 300;
+    color: #575757;
     width: 640px;
     margin: 0;
     text-align: left;

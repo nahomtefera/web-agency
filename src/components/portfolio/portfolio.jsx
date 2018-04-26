@@ -7,8 +7,21 @@ class Portfolio extends Component {
         super(props);
 
         this.state={
-            mockups_1: ["restaurant-1.png", "restaurant-2.png", "restaurant-4.png", "restaurant-3.png", "minimal-1.png", "minimal-2.png", "minimal-3.png", "joy-1.png"],
-            mockups_2: [ "joy-2.png", "joy-3.png", "design-1.png", "design-2.png", "portfolio-1.png", "portfolio-2.png", "sfcoffeeshop.png"]
+            restaurants:[
+                {
+                    title: "Joy",
+                    img: require('../../images/templates/joy-1.png')
+                },
+                {
+                    title: "Restaurants",
+                    img: require('../../images/templates/restaurant-1.png')
+                },            
+                {
+                    title: "minimal",
+                    img: require('../../images/templates/minimal-1.png')
+                },
+                
+            ]
         }
     }
 
@@ -16,23 +29,22 @@ class Portfolio extends Component {
         return(
             <div className="portfolio-container">
                 
-                <h1 className="portfolio-title">Previous Work</h1>
+                <h1 className="portfolio-title">Web templates</h1>
                 
-                <div className="mockups-scroll-container">
-                    <div className="mockups-container">
-                        {this.state.mockups_1.map((image, index)=>{
-                            return <img key={index} className="portfolio-img-item" src={require("../../images/mockups/" + image)} alt=""/>
-                        })}
+                <div className="template-container">
+                    <div className="template-img-container">
+                        {this.state.restaurants.map((template, index) => {
+                            return (
+                                <div key={index} className="restaurant-img-container">
+                                    <img className="restaurant-img-item" src={template.img} alt={template.title + " template"}/>
+                                    <h5 className="template-name">{template.title}</h5>
+                                </div>
+                            )
+                        })}      
                     </div>
+         
                 </div>
 
-                <div className="mockups-scroll-container">
-                    <div className="mockups-container">
-                        {this.state.mockups_2.map((image, index)=>{
-                            return <img key={index} className="portfolio-img-item" src={require("../../images/mockups/" + image)} alt=""/>
-                        })}
-                    </div>
-                </div>
 
             </div>
         )

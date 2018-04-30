@@ -1,0 +1,9 @@
+.services-title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3em;
+    text-transform: capitalize;
+    margin-top: 2em;
+    color: #575757;
+}

@@ -10,7 +10,7 @@ class Services extends Component {
     render() {
         return (
             <div className="services-container">
-                Services
+                <div className="services-title">Services</div>
             </div>
         )
     }

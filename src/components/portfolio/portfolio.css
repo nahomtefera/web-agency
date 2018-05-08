@@ -11,7 +11,7 @@
     font-size: 3em;
     text-transform: capitalize;
     margin-top: 2em;
-    color: #575757;
+    color: #507890;
 }
 
 .template-container {
@@ -36,6 +36,7 @@
     overflow: hidden;
     cursor: pointer;
     text-align: left;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
 }
 
 .restaurant-img-container {
@@ -44,11 +45,14 @@
     border: 1px solid #e0e0e0;
     box-sizing: border-box;
     background: #fafafa;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
 }
 
 .restaurant-img-item {
     max-width: 100%;
     box-sizing: border-box;
+    outline: none!important;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
 }
 
 .restaurant-img-item:hover {

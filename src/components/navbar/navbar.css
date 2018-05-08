@@ -1,5 +1,5 @@
 .navbar-container {
-    /* position: absolute; */
+    position: absolute;
     top: 0;
     z-index: 9;
     padding: 20px 96px;
@@ -24,13 +24,13 @@
 
 .navbar-list-link {
     text-decoration: none;
-    color: #5d98b7;
+    color: #cacaca;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
 .navbar-list-link:hover {
-    color: #474747;
+    color: #121212;
 }
 
 .navbar-toggle-icon {

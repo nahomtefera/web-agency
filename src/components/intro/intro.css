@@ -1,12 +1,10 @@
 .intro-container {
     text-align: center;
-}
-
-.intro-logo {
-    display: block;
-    margin: 0 auto;
-    width: 500px;
-    max-width: 100%;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    background: url('../../images/intro-slate.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .intro-text-container {
@@ -14,7 +12,6 @@
     text-align: center;
     margin: 20px;
     vertical-align: top;
-    padding-top: 30px;
     box-sizing: border-box;
     max-width: 100%;
 }
@@ -22,7 +19,7 @@
 .intro-title {
     text-align: left;
     color: #2b6592;
-    font-size: 1.6em;
+    font-size: 2.6em;
     font-family: 'Quicksand';
     font-weight: bold;
     text-transform: uppercase;
@@ -30,11 +27,12 @@
 
 .intro-text {
     font-family: "Quicksand", sans-serif;
-    font-size: 2.2em;
+    display: inline-block;
+    font-size: 3.2em;
     font-weight: 300;
-    color: #575757;
+    color: #507890;
     width: 640px;
-    max-width: 95%;
+    max-width: 100%;
     margin: 0;
     text-align: left;
 }
@@ -45,6 +43,63 @@
 }
 
 .intro-img {
-    width: 600px;
+    width: 750px;
     max-width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .intro-text-container {
+        display: inline-block;
+        text-align: center!important;
+    }
+
+    .intro-title {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    .intro-text {
+        text-align: center;
+        max-width: 90%;
+        margin: 0;
+    }
+
+    .intro-img {
+        margin-top: 6em;
+    }
+}
+
+@media only screen and (max-width: 1470px) {
+    
+    .intro-container {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        background-size: cover;
+        background: url('../../images/intro-slate.png');
+        background-repeat: no-repeat;
+    }
+
+    .intro-text-container {
+        display: inline-block;
+        text-align: center!important;
+        margin: 0;
+        vertical-align: top;
+        padding-top: 30px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        max-width: 95%;
+    }
+
+    .intro-title {
+        text-align: center;
+        color: white;
+    }
+
+    .intro-text {
+        color: white;
+        text-align: center;
+        margin: 0;
+        width: 950px;
+        font-size: 2.2em;
+    }
 }

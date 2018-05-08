@@ -1,0 +1,37 @@
+.home-container {
+    width: 100%;
+    max-width: 100%;
+    min-height: 560px;
+    height: 1130px;
+    max-height: 100vh;
+    border-bottom: 7px solid #f7f7f7;
+    position: relative;
+    top: 0;
+    text-align: center;
+}
+
+.logo-container {
+    display: inline-block;
+    height: 100%;
+}
+
+.intro-logo {
+    width: 650px;
+    max-width: 85%;
+    position: relative;
+    top: 45%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 640px) {
+    .home-container {
+        height: 640px;
+        max-height: 140vh;
+    }
+
+    .intro-logo {
+        max-width: 65%;
+    }
+}

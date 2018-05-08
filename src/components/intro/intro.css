@@ -2,7 +2,7 @@
     text-align: center;
     padding-top: 15em;
     padding-bottom: 15em;
-    background: url('../../images/intro-slate.png');
+    background: url('../../images/intro-slate-4.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -75,7 +75,7 @@
         padding-top: 5em;
         padding-bottom: 5em;
         background-size: cover;
-        background: url('../../images/intro-slate.png');
+        /* background: url('../../images/intro-slate.png'); */
         background-repeat: no-repeat;
     }
 

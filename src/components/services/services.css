@@ -17,7 +17,7 @@
 
 .services-boxes {
     width: 400px;
-    max-width: 90%;
+    max-width: 95%;
     vertical-align: top;
     min-height: 500px;
     display: inline-block;
@@ -60,4 +60,12 @@
     font-size: 1.1em;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
+}
+
+@media only screen and (max-width: 863px) {
+
+    .services-boxes {
+        margin: 20px auto;
+    }
+
 }

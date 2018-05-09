@@ -5,6 +5,7 @@ import Home from './components/home/home';
 import Intro from './components/intro/intro';
 import Portfolio from './components/portfolio/portfolio';
 import Services from './components/services/services';
+import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import './App.css';
 
@@ -66,6 +67,7 @@ class App extends Component {
         <Intro />
         <Portfolio />
         <Services />
+        <Contact />
         <Footer />
       </div>
     );

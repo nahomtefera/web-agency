@@ -56,17 +56,36 @@
     margin-right: 40px;
     border: 1px solid #efefef;
     border-radius: 4px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
     background: #fefefe;
 
+}
+
+.empty-input input, .empty-textarea{
+    -webkit-box-shadow: -3px 2px 27px -3px hsla(255, 103, 103, 0.252);
+    box-shadow: -3px 2px 27px -3px rgba(201, 59, 59, 0.252);
+    border: 1px solid #fafafa
+}
+
+.show-warning {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(207, 72, 99);
+    display: block;
+
+}
+
+.hide-warning {
+    display: none;
 }
 
 #message {
     outline: none;
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 10px;
     min-height: 250px;
     width: 100%;
+    padding: 3em;
     max-width: 100%;
 }
 

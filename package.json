@@ -4,8 +4,11 @@
   "private": true,
   "dependencies": {
     "react": "^16.3.2",
+    "react-autosize-input": "0.0.1",
+    "react-autosize-textarea": "^3.0.3",
     "react-dom": "^16.3.2",
     "react-fontawesome": "^1.6.1",
+    "react-input-autosize": "^2.2.1",
     "react-scripts": "1.1.4",
     "react-scrollchor": "^5.0.1"
   },

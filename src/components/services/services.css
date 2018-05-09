@@ -44,6 +44,10 @@
     font-size: 1.3em;
 }
 
+.services-boxes:hover .services-boxes-title {
+    background: #316da7;
+}
+
 .services-img-logo {
     height: 150px;
     max-width: 100%;

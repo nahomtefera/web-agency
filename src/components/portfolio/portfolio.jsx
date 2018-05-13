@@ -44,7 +44,7 @@ class Portfolio extends Component {
 
     render(){
         return(
-            <div className="portfolio-container">
+            <div id="web_templates" className="portfolio-container">
                 
                 <h1 className="portfolio-title">Web templates</h1>
                 

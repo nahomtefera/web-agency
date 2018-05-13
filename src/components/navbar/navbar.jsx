@@ -14,24 +14,20 @@ class Navbar extends Component {
             pages: [
                 {
                     name:"Home",
-                    url: ""
+                    url: "home"
                 },
                 {
-                    name:"Menu",
-                    url: ""
+                    name:"Web Templates",
+                    url: "web_templates"
                 },
                 {
-                    name:"Location",
-                    url: ""
+                    name:"Services",
+                    url: "services"
                 },
                 {
-                    name:"About",
-                    url: ""
-                },
-                {
-                    name:"Reviews",
-                    url: ""
-                },
+                    name:"Contact us",
+                    url: "contact_us"
+                }
             ]
         }
 

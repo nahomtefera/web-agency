@@ -9,7 +9,7 @@ class Services extends Component {
 
     render() {
         return (
-            <div className="services-container">
+            <div id="services" className="services-container">
                 <div className="services-title">Services</div>
 
                 <div className="services-boxes-container">

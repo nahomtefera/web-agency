@@ -11,7 +11,7 @@ class Services extends Component {
         return (
             <div id="services" className="services-container">
                 <div className="services-title">Services</div>
-
+                {/* Services Boxes */}
                 <div className="services-boxes-container">
                     <div className="services-boxes">
                         <h4 className="services-boxes-title">Web Design</h4>
@@ -45,6 +45,20 @@ class Services extends Component {
                         </ul>
                     </div>
                 </div>
+
+                {/* GET STARTED */}
+                <div className="get-started-arrows-container">
+                    <div className="arrow-left"></div>
+                    <div className="second-arrow-left"></div>
+                    <div className="get-started-container">
+                        <h1 className="get-started-title">get started</h1>
+                        {/* <div className="get-started-button">CONTACT</div> */}
+                    </div>
+                    <div className="arrow-right"></div>
+                    <div className="second-arrow-right"></div>
+                </div>
+
+
             </div>
         )
     }

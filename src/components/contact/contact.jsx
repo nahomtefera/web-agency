@@ -55,12 +55,12 @@ class Contact extends Component {
     render(){
         return(
             <div id="contact_us" className="contact-container">
-                <div className="contact-title">Contact us</div>
+                {/* <div className="contact-title">Contact us</div> */}
 
                 <div className="contact-form-container">
 
                     <div className="contact-form-title">
-                        Get in touch with us
+                        Contact us
                     </div>
 
                     <div className="input-fields-container">

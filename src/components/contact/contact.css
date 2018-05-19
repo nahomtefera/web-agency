@@ -28,15 +28,17 @@
     text-align: left;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
     font-size: 3em;
-    padding: 4em 1em 2em 1em;
-    background: url('../../images/contact-img-2.jpg');
+    padding: 2em 1em 1em 1em;
+    background: url('../../images/contact-img-4-3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    background-position: bottom;
+    color: #a7a0a6;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    letter-spacing: 11px;
+    text-transform: lowercase;
 }
 
 .input-fields-container {
@@ -64,14 +66,14 @@
 }
 
 .empty-input input, .empty-textarea{
-    -webkit-box-shadow: 0px 0px 8px 2px rgba(255, 208, 208, 0.79);
-    box-shadow: 0px 0px 8px 2px rgba(255, 208, 208, 0.79);
+    -webkit-box-shadow: 0px 0px 5px 1px  rgba(255, 208, 208, 0.79);
+    box-shadow: 0px 0px 5px 1px  rgba(255, 208, 208, 0.79);
     border: 1px solid #ffe3e3;
 }
 
 .show-warning {
     font-family: "Open Sans", sans-serif;
-    color: rgb(207, 72, 99);
+    color: rgb(228, 113, 113);
     display: block;
 
 }
@@ -118,11 +120,8 @@
 
 @media only screen and (max-width: 863px) {
     .contact-form-title {
-        font-size: 1.35em;
-        padding: 3em 0.2em;
-        font-weight: bold;
-        letter-spacing: 1px;
-        text-align: center;
+        font-size: 2em;
+        letter-spacing: 4px;
     }
 }
 

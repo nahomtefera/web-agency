@@ -20,6 +20,8 @@
     text-align: center;
     width: 100%;
     background: #ececec7d;
+    border-top: 1px solid #E3E5E7;
+    border-bottom: 1px solid #E3E5E7;
 }
 
 .template-img-container {

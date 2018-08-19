@@ -47,16 +47,16 @@ class Services extends Component {
                 </div>
 
                 {/* GET STARTED */}
-                <div className="get-started-arrows-container">
+                {/* <div className="get-started-arrows-container">
                     <div className="arrow-left"></div>
                     <div className="second-arrow-left"></div>
                     <div className="get-started-container">
                         <h1 className="get-started-title">get started</h1>
-                        {/* <div className="get-started-button">CONTACT</div> */}
+                        <div className="get-started-button">CONTACT</div>
                     </div>
                     <div className="arrow-right"></div>
                     <div className="second-arrow-right"></div>
-                </div>
+                </div> */}
 
 
             </div>

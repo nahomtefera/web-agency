@@ -18,27 +18,36 @@
     max-width: 90%;
     margin: 0 auto;
     margin-top: 4em;
-    -webkit-box-shadow: -3px 2px 27px -3px hsla(0,0%,70%,.852);
-    box-shadow: -3px 2px 27px -3px hsla(0,0%,70%,.852);
+    -webkit-box-shadow: 0px 0px 2px 0px hsla(0,0%,70%,.852);
+    box-shadow: 0px 0px 2px 0px hsla(0,0%,70%,.852);;
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .contact-form-title {
-    text-align: left;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     padding: 2em 1em 1em 1em;
-    background: url('../../images/contact-img-4-3.jpg');
+    /* background: url(/static/media/contact-img-4-3.2f638a15.jpg); */
+    background: #ffffff;
+    text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    color: #a7a0a6;
+    color: #807777;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     letter-spacing: 11px;
     text-transform: lowercase;
+}
+
+.input-fields-inner-container {
+    text-align: center;
+}
+
+.input-warning-container {
+    display: inline-block;
 }
 
 .input-fields-container {
@@ -57,7 +66,7 @@
     font-weight: 300;
     letter-spacing: 1.5px;
     margin-right: 40px;
-    border: 1px solid #efefef;
+    border: 1px solid #e2e2e2;
     border-radius: 4px;
     margin-bottom: 30px;
     margin-top: 10px;
@@ -99,23 +108,23 @@
 .submit-button {
     display: inline-block;
     margin: 0 auto;
-    border: 1px solid #4284c6;
-    background: #4284c6;
-    color: white;
+    border: 2px solid #4284c6;
+    background: white;
+    color: #4284c6;
     border-radius: 5px;
     text-align: center;
     padding: 10px 15px;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-weight: 300;
+    font-weight: 400;
     cursor: pointer;
     font-size: 1.5em;
     margin-top: 2.5em;
 }
 
 .submit-button:hover {
-    background: white;
-    color: #4284c6;
+    background: #4284c6;
+    color: white;
 }
 
 @media only screen and (max-width: 863px) {

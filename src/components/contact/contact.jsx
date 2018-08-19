@@ -65,41 +65,50 @@ class Contact extends Component {
 
                     <div className="input-fields-container">
 
-                        <span className={this.state.name === "" && this.state.submit_message == true ? "show-warning" : "hide-warning"}>
-                            * Please enter your Name.
-                        </span>
-                        <AutosizeInput
-                            id="name"
-                            name="form-field-name"
-                            className={this.state.name === "" && this.state.submit_message == true ? "empty-input" : ""}
-                            placeholder="Name"
-                            value={this.state.name}
-                            onChange={this.handleInput}
-                        /> 
-                        <br/>    
-                        <span className={this.state.lastName === "" && this.state.submit_message == true ? "show-warning" : "hide-warning"}>
-                            * Please enter your Last Name.
-                        </span>
-                        <AutosizeInput
-                            id="lastName"
-                            name="form-field-last-name"
-                            className={this.state.lastName === "" && this.state.submit_message == true ? "empty-input" : ""}
-                            placeholder="Last Name"
-                            value={this.state.lastName}
-                            onChange={this.handleInput}
-                        />  
-                        <br/>
-                        <span className={this.state.email === "" && this.state.submit_message == true ? "show-warning" : "hide-warning"}>
-                            * Please enter your email.
-                        </span>       
-                        <AutosizeInput
-                            id="email"
-                            name="form-field-last-email"
-                            className={this.state.email === "" && this.state.submit_message == true ? "empty-input" : ""}
-                            placeholder="Email"
-                            value={this.state.email}
-                            onChange={this.handleInput}
-                        />     
+                        <div className="input-fields-inner-container">
+                            <div className="input-warning-container">
+                                <span className={this.state.name === "" && this.state.submit_message == true ? "show-warning" : "hide-warning"}>
+                                    * Please enter your Name.
+                                </span>
+                                <AutosizeInput
+                                    id="name"
+                                    name="form-field-name"
+                                    className={this.state.name === "" && this.state.submit_message == true ? "empty-input" : ""}
+                                    placeholder="Name"
+                                    value={this.state.name}
+                                    onChange={this.handleInput}
+                                /> 
+                            </div>
+                            
+                            <div className="input-warning-container">
+                                <span className={this.state.lastName === "" && this.state.submit_message == true ? "show-warning" : "hide-warning"}>
+                                    * Please enter your Last Name.
+                                </span>
+                                <AutosizeInput
+                                    id="lastName"
+                                    name="form-field-last-name"
+                                    className={this.state.lastName === "" && this.state.submit_message == true ? "empty-input" : ""}
+                                    placeholder="Last Name"
+                                    value={this.state.lastName}
+                                    onChange={this.handleInput}
+                                />  
+                            </div>
+                            
+                            <div className="input-warning-container">
+                                <span className={this.state.email === "" && this.state.submit_message == true ? "show-warning" : "hide-warning"}>
+                                    * Please enter your email.
+                                </span>       
+                                <AutosizeInput
+                                    id="email"
+                                    name="form-field-last-email"
+                                    className={this.state.email === "" && this.state.submit_message == true ? "empty-input" : ""}
+                                    placeholder="Email"
+                                    value={this.state.email}
+                                    onChange={this.handleInput}
+                                />   
+                            </div>
+                        </div>
+                          
                         <br/>
                         <br/>
                         <span className={this.state.message === "" && this.state.submit_message == true ? "show-warning" : "hide-warning"}>

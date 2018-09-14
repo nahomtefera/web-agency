@@ -30,7 +30,6 @@ class Services extends Component {
                         <img className="services-img-logo" src={require('../../images/services-social-media.png')} alt=""/>
                         <ul className="services-info">
                             <li>We offer Social Media integration.</li>
-                            <li>If you already have social media accounts, we offer consultation.</li>
                             <li>Training on creating quality content to promote your business.</li>
                             <li><b>Facebook, Instagram, Google Analytics.</b></li>
                         </ul>

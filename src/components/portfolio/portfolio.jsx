@@ -48,15 +48,18 @@ class Portfolio extends Component {
             ]
         }
 
-        this.toggleScreenshot = this.toggleScreenshot.bind(this);
+        // this.toggleScreenshot = this.toggleScreenshot.bind(this);
         this.closeViewer = this.closeViewer.bind(this);
     }
 
-    toggleScreenshot(el){
-        let template = el.target.id;
-        console.log('yooo', template)
-        this.setState({toggleScreenshot: template})
-    }
+    // Fix Whatever this is
+    // toggleScreenshot(el){
+    //     console.log(el)
+    //     let template = el.target.id;
+    //     console.log(template)
+    //     console.log('yooo', template)
+    //     // this.setState({toggleScreenshot: template})
+    // }
 
     closeViewer(e){
         let element = e.target.className;
@@ -89,15 +92,15 @@ class Portfolio extends Component {
                     </div>
          
                 </div>
-                {
+                {/* {
                     this.state.toggleScreenshot != null 
                         ?<div onClick={this.closeViewer} className={"template-view-outer-container"}>
                             <div className="template-view-container">
-                                <img className="template-view-img" src={require(`../../images/templates_screenshots/${this.state.toggleScreenshot}.png`)} alt=""/>
+                                <img className="template-view-img" src={require(`../../images/templates_screenshots/inland.png`)} alt=""/>
                             </div>
                         </div>
                         : null
-                }
+                } */}
 
             </div>
         )

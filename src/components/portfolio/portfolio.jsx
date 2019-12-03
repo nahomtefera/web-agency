@@ -12,37 +12,37 @@ class Portfolio extends Component {
                 {
                     title: "Inland",
                     img: require('../../images/templates/restaurant-3.png'),
-                    screenshot: require('../../images/templates_screenshots/Inland.png'),
+                    screenshot: require('../../images/templates_screenshots/inland.png'),
                     released: true,
                 },          
                 {
                     title: "Joy",
                     img: require('../../images/templates/joy-2.png'),
-                    screenshot: require('../../images/templates_screenshots/Inland.png'),
+                    screenshot: require('../../images/templates_screenshots/inland.png'),
                     released: true,
                 },  
                 {
                     title: "minimal",
                     img: require('../../images/templates/minimal-2.png'),
-                    screenshot: require('../../images/templates_screenshots/Inland.png'),
+                    screenshot: require('../../images/templates_screenshots/inland.png'),
                     released: true,
                 },
                 {
                     title: "Fumes",
                     img: require('../../images/templates/fumes.png'),
-                    screenshot: require('../../images/templates_screenshots/Inland.png'),
+                    screenshot: require('../../images/templates_screenshots/inland.png'),
                     released: false,
                 },          
                 {
                     title: "Cosmopolitan",
                     img: require('../../images/templates/cosmopolitan.png'),
-                    screenshot: require('../../images/templates_screenshots/Inland.png'),
+                    screenshot: require('../../images/templates_screenshots/inland.png'),
                     released: false,
                 },  
                 {
                     title: "Fuego",
                     img: require('../../images/templates/fuego.png'),
-                    screenshot: require('../../images/templates_screenshots/Inland.png'),
+                    screenshot: require('../../images/templates_screenshots/inland.png'),
                     released: false,
                 },
             ]
